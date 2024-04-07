@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK PAPER SCISSOR</title>
+    <link rel="icon" type="image/x-icon" href="https://media.istockphoto.com/id/1056840214/vector/rock-paper-scissors-vector-illustration.jpg?s=612x612&w=0&k=20&c=6KEBfon5f9BXXhLiu9JfOk6EHsM193SiWMcqDjN1jqM=">
+    <link rel="stylesheet" href="rps.css">
+</head>
+<body>
+    <header>
+        <div class="heading">
+            *-* ROCK PAPER SCISSOR *-*
+        </div>
+    </header>
+    <br>
+    <div class="container">
+        <div class="item" id="rock">
+            <img class="image" src="https://t3.ftcdn.net/jpg/00/55/21/18/360_F_55211893_pMzGwbg4p7yElUGfc868m9dUXaknoWkU.jpg"/>
+        </div>
+        <div class="item" id="paper">
+            <img src="https://media.istockphoto.com/id/1473930160/vector/walking-blank-paper-cartoon-character.jpg?s=612x612&w=0&k=20&c=pyNVYIl1gPt0_R1vl7jSuvXdeTJIQO7S08cZsYz5jNw=" class="image">
+        </div>
+        <div class="item" id="scissor">
+            <img src="https://t3.ftcdn.net/jpg/00/55/10/40/360_F_55104038_VMb5Bfm1cCVyh93VbJIoK4AQrlmyH0Wc.jpg" class="image">
+        </div>
+    </div>
+    <br><br>
+
+    <div class="score">
+    <div class="user">
+        <h2>YOU</h2>
+        <h2 id="user-score">0</h2>    
+    </div>
+    <div class="comp">
+        <h2>COMPUTER</h2>
+        <h2 id="comp-score">0</h2>
+    </div>
+    </div>
+
+    <br>
+
+    <div class="result">
+        <h2>
+            You Win
+        </h2>
+    </div>
+    <script src="rps.js"></script>
+</body>
+</html>
