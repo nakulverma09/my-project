@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body{
+    background-color: darkslateblue;
+    display: cover;
+    height: 100%;
+    position: relative;
+}
+.heading{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    color: aquamarine;
+    font-family: 'Courier New', 'Courier', 'monospace';
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 600px;
+    height: 240px;
+
+}
+.item{
+    border: 2px solid purple;
+    border-radius: 50%;
+    background-color: white;
+    width: 150px; 
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+
+}
+.image{
+    height: 100px;
+    width: 100px;
+}
+.user,.comp{
+    color: lightblue;
+    text-shadow: 3px 3px 4px black ;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.user #user-score,.comp #comp-score{
+    font-size: 60px;
+}
+.score{
+    display: flex;
+    justify-content: space-between;
+    height: 120PX;
+    align-items: center;
+    width: 400px;
+    background-color: none;
+    margin-left: 40%;
+    
+}
+.result h2{
+   font-size: 25px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   background-color: silver;
+   display: inline;
+   border-radius: 10px;
+   padding: 10px;
+   border: 2px solid goldenrod;
+}
